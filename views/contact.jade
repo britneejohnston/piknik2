@@ -1,0 +1,29 @@
+extends layout
+
+body
+  block content
+    .div
+      .container
+        h5.center.
+          </br>
+          We would love to hear from you! </br> Please fill out the form and we'll get back to you shortly.
+        .row
+        .container
+          .container
+            .card-panel.text-color
+              .form
+              .input-field
+                input#name.validate(type="text")
+                label.active.row(for="name") Name
+              .input-field
+                input#email.validate(type="email")
+                label.active.row(for="email") Email
+              .input-field
+                input#number.validate(type="text")
+                label.active.row(for="number") Phone Number
+              .input-field
+                textarea#message.materialize-textarea
+                label.active.row(for="message") Your Message
+                .btn#buttonColor(type="submit", value="Send", name="action")
+                      | Submit
+script(src='/public/app.js')

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    
+.div.center.nav-wrapper
+  h2.center.Explore
+    table.white-text
+      thead
+        tr
+          th.Categories
+          th.Product
+          th.Price
+          th.Select>
+      tbody
+        {groceries}
+        
+  script(src='/public/app.js')
+

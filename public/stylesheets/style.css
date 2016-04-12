@@ -1,0 +1,35 @@
+body {
+		background: url(../../images/cover.jpg) no-repeat center center fixed;
+		background-size: cover;
+		color: white;
+    font-family: Arial Narrow;
+}
+
+.text-color {
+  color: #424242;
+}
+
+.headcolor {
+  background-color: #819454;
+}
+
+#list {
+  background-color: #701f13;
+  border: 1px solid #2b1712;
+  width: 250px;
+  height: 600px;
+  padding: 20px;
+}
+
+#listHeader {
+  background-color: #facb6e;
+}
+
+.shopList {
+  width: 250px;
+  height: 600px;
+}
+
+#buttonColor {
+  background-color: #fa8c32;
+}

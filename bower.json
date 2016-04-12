@@ -1,0 +1,26 @@
+{
+  "name": "Piknik",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nelson Bruggeman <nelsonbruggeman@gmail.com>"
+    "Mitchell Cox <mitchell.allan.cox@gmail.com>"
+    "Britnee Nguyen <britnee.nguyen@gmail.com>"
+    "Diane Tran <trandian@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#^0.97.5",
+    "moment": "^2.11.2"
+  }
+}
